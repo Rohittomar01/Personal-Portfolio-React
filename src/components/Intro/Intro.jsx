@@ -28,10 +28,10 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span>Rohit Tomar</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            Frontend Developer with expertise in user interface and development,
+            dedicated to delivering top-quality work.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,9 +39,27 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a
+            href="https://github.com/Rohittomar01"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Github} alt="GitHub" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rohit-tomar-0a4639265"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={LinkedIn} alt="LinkedIn" />
+          </a>
+          {/* <a
+            href="https://www.instagram.com/your-instagram-profile"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Instagram} alt="Instagram" />
+          </a> */}
         </div>
       </div>
       {/* right image side */}
@@ -75,7 +93,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Full Stack" text2="Developer" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

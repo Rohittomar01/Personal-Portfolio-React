@@ -13,6 +13,9 @@
     position: relative;
     flex: 1;
 }
+.button{
+    margin-bottom: 2%;
+}
 
 .c-right>form
 {

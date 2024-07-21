@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from "./resume.pdf";
 
 const Services = () => {
   // context
@@ -26,11 +26,12 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        <span>
+          Providing exceptional user interface and development services.
           <br />
-          ispum is simpley dummy text of printing
-        </spane>
+          Delivering innovative solutions and top-notch quality for your
+          projects.{" "}
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
@@ -46,8 +47,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Frontend Developer"}
+            detail={"React js., HTML, CSS, Javascript, Redux, Jwt, Typescript, MUI, ShadCN"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +59,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Backend Developer"}
+            detail={"Nodejs, Express, MySQl, Mongodb, Socket.io, api Integration"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +71,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Other Services"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Langchain, AI integration, Next js., Expo Go"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
